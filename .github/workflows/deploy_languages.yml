@@ -1,0 +1,23 @@
+name: SCP Deploy Languages Data to the Server
+
+on:
+    push:
+        branches:
+            - main
+            
+
+jobs:
+    build:
+        name: Build
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v4
+        - name: SCP Deploy
+          uses: appleboy/scp-action@v0.1.7
+          with:
+                key: ${{ secrets.SK }}
+                port: ${{ secrets.SSH_PORT }}
+                username: ${{ secrets.SSH_USERNAME }}
+                host: ${{ secrets.SSH_HOST }}
+                source: 'sejrjp/*, barrjp/*, roganrjp/*'
+                target: '/home/akane121/www/amanasie_second/mm/languages'

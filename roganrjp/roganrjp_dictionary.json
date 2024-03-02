@@ -1,0 +1,27 @@
+{
+    "language": "諸語",
+    "date": "",
+    "translation": "日本語",
+    "part": {
+        "ND": "名詞(独立)",
+        "NC": "名詞(複合)",
+        "NP": "代名詞",
+        "VI": "非ba動詞",
+        "VT": "ba動詞",
+        "P": "前置詞",
+        "A": "形容詞",
+        "AV": "副詞",
+        "INT": "間投詞",
+        "CON": "接続詞"
+    },
+    "content": [
+        {
+            "word": "roganrjp",
+            "part": "",
+            "translation": "test",
+            "composition": "",
+            "etymology": "",
+            "examples": []
+        }
+    ]
+}
