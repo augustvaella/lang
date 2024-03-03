@@ -15,7 +15,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"dictionary element":{
+	"dictionary element word":{
         "scope": "json",
 		"prefix": "word",
 		"body": [
@@ -29,7 +29,7 @@
 			"},"	
 		]
 	},
-	"dictionary element": {
+	"dictionary element example": {
 		"scope": "json",
 		"prefix": "example",
 		"body":[

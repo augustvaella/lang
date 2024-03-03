@@ -3,8 +3,8 @@
     "date": "",
     "translation": "日本語",
     "part": {
-        "ND": "名詞(独立)",
-        "NC": "名詞(複合)",
+        "ND": "名詞(単独)",
+        "NC": "名詞(合成)",
         "NP": "代名詞",
         "VI": "非ba動詞",
         "VT": "ba動詞",
@@ -1264,15 +1264,23 @@
         },
         {
             "word": "bjdas",
-            "part": "NC",
-            "translation": "同胞、貴公、卿(二人称)",
+            "part": "NP",
+            "translation": "われら われわれ わが兄弟 わが同胞 わがはらから 貴公 御手前 卿(二人称)",
             "composition": "bid + was",
             "etymology": "",
             "examples": []
         },
         {
-            "word": "bjdazon",
+            "word": "bjdas",
             "part": "NC",
+            "translation": "自分の家族・兄弟・親族・同胞",
+            "composition": "",
+            "etymology": "",
+            "examples": []
+        },
+        {
+            "word": "bjdazon",
+            "part": "NP",
             "translation": "あなた(二人称・敬称)",
             "composition": "bid + wazon",
             "etymology": "",
@@ -1282,6 +1290,14 @@
             "word": "bjdra",
             "part": "NC",
             "translation": "自宅",
+            "composition": "bid + ra",
+            "etymology": "",
+            "examples": []
+        },
+        {
+            "word": "bjdra",
+            "part": "NP",
+            "translation": "われら われわれ 同志 同胞 はらから (自分の)家族",
             "composition": "bid + ra",
             "etymology": "",
             "examples": []
