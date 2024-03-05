@@ -20,4 +20,4 @@ jobs:
                 username: ${{ secrets.SSH_USERNAME }}
                 host: ${{ secrets.SSH_HOST }}
                 source: 'sejrjp/*, barrjp/*, roganrjp/*'
-                target: '/home/akane121/www/test/amanasie_second/mm/languages'
+                target: '~/www/test/amanasie_second/mm/languages'
